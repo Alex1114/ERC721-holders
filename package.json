@@ -1,0 +1,34 @@
+{
+  "name": "erc721_holders",
+  "version": "1.0.0",
+  "description": "Get all holders of ERC721 token",
+  "main": "app.js",
+  "scripts": {
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rainer048/ERC721_holders.git"
+  },
+  "keywords": [
+    "ethereum",
+    "erc721",
+    "smart",
+    "contract"
+  ],
+  "author": "rainer048",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rainer048/ERC721_holders/issues"
+  },
+  "homepage": "https://github.com/rainer048/ERC721_holders#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "web3": "^1.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  }
+}
