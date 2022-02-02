@@ -24,6 +24,7 @@
   "homepage": "https://github.com/rainer048/ERC721_holders#readme",
   "dependencies": {
     "fs": "0.0.1-security",
+    "objects-to-csv": "^1.3.6",
     "web3": "^1.7.0"
   },
   "devDependencies": {
