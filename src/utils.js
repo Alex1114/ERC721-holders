@@ -12,7 +12,6 @@ async function addHolder(holders, contract, tokenId) {
                     return true;
                 });
                 holders.push(holder);
-                console.log(tokenId);
             }
         })
         .catch((err) => {
