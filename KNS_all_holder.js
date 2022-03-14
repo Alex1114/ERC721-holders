@@ -12,7 +12,7 @@ var delayInMilliseconds = 500;
     await contract.methods.totalSupply().call()
         .then(async (total) => {
             const holders = [];
-            for (let i = 0; i < 10000; i += 1) {
+            for (let i = 0; i < 1398; i += 1) {
                 console.log(i)
                 await utils.addHolder(holders, contract, i);
                 function sleep(delay) {
