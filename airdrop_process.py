@@ -20,5 +20,8 @@ print(len(address))
 
 with open('data/address_1.csv', 'w', newline='') as csvfile:
     writer = csv.writer(csvfile)
-    writer.writerow(address[0:])
+    writer.writerow(address[0:500])
 
+with open('data/address_2.csv', 'w', newline='') as csvfile:
+    writer = csv.writer(csvfile)
+    writer.writerow(address[500:])
