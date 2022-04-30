@@ -22,8 +22,6 @@ var delayInMilliseconds = 500;
                     }
                 }
                 sleep(300);
-                
-            
             }
         })
         .catch((err) => {
